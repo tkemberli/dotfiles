@@ -1,0 +1,84 @@
+[1664125364557] INFO  (ext): SQLTools is starting
+[1664125364560] INFO  (ext): initializing language client...
+[1664125364562] INFO  (ext): Registering client for languages [{"scheme":"sqltools"},{"language":"sql","scheme":"untitled"},{"language":"sql","scheme":"file"},{"language":"sql","scheme":"sqltools"}]
+    ns: "lc"
+[1664125364565] INFO  (ext): loading plugins...
+[1664125364565] INFO  (ext): registering Formatter Plugin.
+    plugin: {
+      "name": "Formatter Plugin"
+    }
+[1664125364565] INFO  (ext): registering Connection Manager Plugin.
+    plugin: {
+      "name": "Connection Manager Plugin"
+    }
+[1664125364565] INFO  (ext): registering CodeLens Plugin.
+    plugin: {
+      "name": "CodeLens Plugin",
+      "registeredLanguages": []
+    }
+[1664125364566] INFO  (ext): registering Dependency Manager Plugin.
+    plugin: {
+      "name": "Dependency Manager Plugin",
+      "installingDrivers": []
+    }
+[1664125364568] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1664125364569] INFO  (ext): registering History Manager Plugin.
+    plugin: {
+      "name": "History Manager Plugin"
+    }
+[1664125364569] INFO  (ext): registering Bookmarks Manager Plugin.
+    plugin: {
+      "name": "Bookmarks Manager Plugin"
+    }
+[1664125364570] INFO  (ext): SQLTools activation completed. 12.921266 ms
+[1664125364578] INFO  (ext): Formatter Plugin registered!
+[1664125364578] INFO  (ext): CodeLens Plugin registered!
+[1664125364578] INFO  (ext): Dependency Manager Plugin registered!
+[1664125364579] INFO  (ext): Connection Manager Plugin registered!
+[1664125364579] INFO  (ext): History Manager Plugin registered!
+[1664125364579] INFO  (ext): Bookmarks Manager Plugin registered!
+[1664125364652] INFO  (ext): registering MySQL/MariaDB Plugin (driver).
+    plugin: {
+      "extensionId": "mtxr.sqltools-driver-mysql",
+      "name": "MySQL/MariaDB Plugin",
+      "type": "driver"
+    }
+[1664125364653] INFO  (ext): registering PostgreSQL/Redshift Plugin (driver).
+    plugin: {
+      "extensionId": "mtxr.sqltools-driver-pg",
+      "name": "PostgreSQL/Redshift Plugin",
+      "type": "driver"
+    }
+[1664125364854] INFO  (ls): SQLTools Server started!
+===============================
+Using node runtime?: no
+ExecPath: /usr/lib/electron19/electron 
+===============================
+[1664125364860] INFO  (ls): Telemetry enabled!
+    ns: "telemetry"
+[1664125364863] INFO  (ext): LanguageClient ready
+    ns: "lc"
+[1664125364866] INFO  (ls): REQUEST RECEIVED => ls/RegisterPlugin
+[1664125364866] INFO  (ls): request to register plugin: "/home/tkemberli/.vscode-oss/extensions/mtxr.sqltools-driver-mysql-0.2.0/out/ls/plugin.js"
+[1664125365006] INFO  (ls): Driver mysql registered!
+    place: "driver-map"
+    ns: "ls-context"
+[1664125365006] INFO  (ls): Driver mariadb registered!
+    place: "driver-map"
+    ns: "ls-context"
+[1664125365006] INFO  (ls): REQUEST RECEIVED => ls/RegisterPlugin
+[1664125365007] INFO  (ext): MySQL/MariaDB Plugin (driver) registered!
+[1664125365006] INFO  (ls): request to register plugin: "/home/tkemberli/.vscode-oss/extensions/mtxr.sqltools-driver-pg-0.2.0/out/ls/plugin.js"
+[1664125365054] INFO  (ls): Driver postgresql registered!
+    place: "driver-map"
+    ns: "ls-context"
+[1664125365054] INFO  (ls): Driver aws redshift registered!
+    place: "driver-map"
+    ns: "ls-context"
+[1664125365054] INFO  (ext): PostgreSQL/Redshift Plugin (driver) registered!
+[1664125366055] INFO  (ext): EXECUTING COMMAND => sqltools.refreshTree
+[1664125366056] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1664125366569] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"

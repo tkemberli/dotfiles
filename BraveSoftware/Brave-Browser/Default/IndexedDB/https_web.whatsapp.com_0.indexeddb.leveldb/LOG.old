@@ -1,0 +1,37 @@
+2022/09/25-11:55:57.569 143f2 Reusing MANIFEST /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/25-11:55:57.569 143f2 Recovering log #732
+2022/09/25-11:55:57.589 143f2 Reusing old log /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000732.log 
+2022/09/25-11:56:07.386 1087f Level-0 table #750: started
+2022/09/25-11:56:07.513 1087f Level-0 table #750: 1114786 bytes OK
+2022/09/25-11:56:07.563 1087f Delete type=0 #732
+2022/09/25-11:56:23.721 10964 Compacting 1@0 + 0@1 files
+2022/09/25-11:56:23.840 10964 Generated table #751@0: 19716 keys, 581274 bytes
+2022/09/25-11:56:23.916 10964 Generated table #752@0: 359 keys, 7406 bytes
+2022/09/25-11:56:23.916 10964 Compacted 1@0 + 0@1 files => 588680 bytes
+2022/09/25-11:56:24.041 10964 compacted to: files[ 0 2 12 0 0 0 0 ]
+2022/09/25-11:56:24.042 10964 Delete type=2 #750
+2022/09/25-11:56:24.429 143f3 Compacting 1@1 + 10@2 files
+2022/09/25-11:56:24.570 143f3 Generated table #753@1: 40722 keys, 2363689 bytes
+2022/09/25-11:56:24.728 143f3 Generated table #754@1: 10471 keys, 2193880 bytes
+2022/09/25-11:56:24.861 143f3 Generated table #755@1: 1980 keys, 2140857 bytes
+2022/09/25-11:56:24.980 143f3 Generated table #756@1: 15782 keys, 2192867 bytes
+2022/09/25-11:56:25.193 143f3 Generated table #757@1: 20336 keys, 2206696 bytes
+2022/09/25-11:56:25.332 143f3 Generated table #758@1: 3047 keys, 2122920 bytes
+2022/09/25-11:56:25.466 143f3 Generated table #759@1: 44160 keys, 2173829 bytes
+2022/09/25-11:56:25.650 143f3 Generated table #760@1: 105417 keys, 2257222 bytes
+2022/09/25-11:56:25.817 143f3 Generated table #761@1: 104809 keys, 2256070 bytes
+2022/09/25-11:56:25.934 143f3 Generated table #762@1: 105059 keys, 2256792 bytes
+2022/09/25-11:56:25.976 143f3 Generated table #763@1: 11774 keys, 252924 bytes
+2022/09/25-11:56:25.976 143f3 Compacted 1@1 + 10@2 files => 22417746 bytes
+2022/09/25-11:56:26.051 143f3 compacted to: files[ 0 1 13 0 0 0 0 ]
+2022/09/25-11:56:26.051 143f3 Delete type=2 #741
+2022/09/25-11:56:26.051 143f3 Delete type=2 #738
+2022/09/25-11:56:26.051 143f3 Delete type=2 #744
+2022/09/25-11:56:26.051 143f3 Delete type=2 #740
+2022/09/25-11:56:26.051 143f3 Delete type=2 #737
+2022/09/25-11:56:26.052 143f3 Delete type=2 #736
+2022/09/25-11:56:26.052 143f3 Delete type=2 #751
+2022/09/25-11:56:26.052 143f3 Delete type=2 #745
+2022/09/25-11:56:26.052 143f3 Delete type=2 #742
+2022/09/25-11:56:26.052 143f3 Delete type=2 #743
+2022/09/25-11:56:26.052 143f3 Delete type=2 #739

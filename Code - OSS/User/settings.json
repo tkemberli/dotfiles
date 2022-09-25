@@ -1,0 +1,11 @@
+{
+    "editor.fontSize": 18,
+    "editor.wordWrap": "on",
+    "haskell.manageHLS": "GHCup",
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Font Awesome 6', 'monospace', monospace",
+    "window.zoomLevel": -1,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Tokyo Night"
+}

@@ -1,0 +1,41 @@
+[2022-09-25 11:02:51.159] [exthost] [info] Extension host with pid 19673 started
+[2022-09-25 11:02:51.159] [exthost] [info] Skipping acquiring lock for /home/tkemberli/.config/Code - OSS/User/workspaceStorage/c1af8d4b120074851743090e3126d811.
+[2022-09-25 11:02:51.223] [exthost] [info] ExtensionService#_doActivateExtension justusadam.language-haskell, startup: false, activationEvent: 'onLanguage:haskell', root cause: haskell.haskell
+[2022-09-25 11:02:51.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.228] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-25 11:02:51.231] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.235] [exthost] [info] ExtensionService#_doActivateExtension mtxr.sqltools, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.264] [exthost] [error] Activating extension justusadam.language-haskell failed due to an error:
+[2022-09-25 11:02:51.264] [exthost] [error] Error: Cannot find module '/home/tkemberli/.vscode-oss/extensions/justusadam.language-haskell-3.6.0/out/src/extension'
+Require stack:
+- /usr/lib/code/out/vs/loader.js
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+	at Module._load (node:internal/modules/cjs/loader:785:27)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at s._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:14538)
+	at p._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:62866)
+	at E._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:62234)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at b._loadCommonJSModule (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:64346)
+	at b._doActivateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:14941)
+	at b._activateExtension (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:13880)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async E._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8224)
+	at async E._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:8166)
+	at async E._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:85:7530)
+[2022-09-25 11:02:51.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.348] [exthost] [info] ExtensionService#_doActivateExtension mtxr.sqltools-driver-mysql, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.351] [exthost] [info] ExtensionService#_doActivateExtension mtxr.sqltools-driver-pg, startup: true, activationEvent: '*'
+[2022-09-25 11:02:51.388] [exthost] [info] Eager extensions activated
+[2022-09-25 11:02:51.416] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-25 11:02:51.422] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-25 11:05:44.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-25 11:05:44.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-25 11:05:44.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-25 11:06:27.729] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-25 11:06:27.768] [exthost] [info] Extension host with pid 19673 exiting with code 0

@@ -1,0 +1,30 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "remote-log.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Better Chrome image viewing experience",
+   "differential_fingerprint": "1.dc9c686207763f2dbdfdf01827d648d8067e25577de8674998a7587ab09b498e",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "24": "icons/icon24.png",
+      "32": "icons/icon24.png",
+      "64": "icons/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAusH2FrF4kSCSkJlpvn9w4FNc4DHj65I8w59AEzzQLq4VeUe+OPenubaVSx8a52s+KacZikFoR605qv9HqedD5sj4B9MGS7qIXjfwVKWN9fIHWLtc6B534sFL5zaw3ZzuDDhAMo4z3AC8PaOVkA2fSJLN3upzNSb0U555ORgiKaeerB7MtayVGVSqlhZlsXkPrGPDsj0fcSw/ubx6kuhLeiuB+pC3Ru8KObLQJkflAftWUcBLTrWQnvcxAI0gG6NNjvqqNrIAtH/dIl4GjLAr3989WshsAfAB9f32cO/53ZodVr0TFStqJRxsoiN8erJBlKGFM96Oc8nguT7jrUCYfQIDAQAB",
+   "manifest_version": 3,
+   "name": "Enhanced Image Viewer",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "contextMenus", "webRequest", "storage", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2"
+}

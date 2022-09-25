@@ -1,0 +1,81 @@
+Config{
+
+  font = "xft:JetBrains Mono Medium:style=Medium:size=9, Font Awesome 6 Free Solid:style=Solid:size=9",
+  bgColor = "#000000",
+  fgColor = "#bfbfbf",
+  alpha   = 185,
+  lowerOnStart = False,
+  hideOnStart = False,
+  sepChar = "%",
+  alignSep = "}{",
+
+  template="  <action=`alacritty -t 'System Monitor' -e top` button=1><box type=Bottom>%multicpu%</box>  <box type=Bottom>%memory%</box>  <box type=Bottom>%dynnetwork%</box>%ethernet%  <box type=Bottom>%disku%</box></action>  %brightness%  %mouse%}%StdinReader%{<action=`playerctl play-pause` button=1><action=`playerctl next` button=3>%media%</action></action>%volume%  <action=`alacritty -t Weather --hold -e 'curl wttr.in'` button=1><box type=Bottom>%SBSP%</box></action>  <action=`alacritty -t 'Calendar'` button=1><box type=Bottom>%date%</box></action>  ",
+
+  commands= [
+    Run MultiCpu[
+      "--template", "\xf2db <autovbar>"
+      ,"--high", "#ff7fa3"
+      ,"--low", "#80ffdb"
+    ]10
+
+    ,Run Memory[
+      "--template", "\xf538 <used> <cache> <usedvbar>16G "
+      ,"--High", "10000"
+      ,"--high", "#ff7fa3"
+      ,"--Low", "4000"
+      ,"--low", "#80ffdb"
+      ,"--width", "4"
+    ]10
+
+    ,Run DynNetwork[
+      "--template", "\xf019 <rx>KB  \xf093 <tx>KB "
+      ,"--High", "2400000"
+      ,"--high", "#ff7fa3"
+      ,"--Low", "800000"
+      ,"--low", "#80ffdb"
+      ,"--width", "4"
+    ]10
+
+    ,Run DiskU [("/", "\xf0a0<used>|<size>"), ("/home", "\xf015<used>|<size>")]
+    [
+      "--high", "#ff7fa3"
+     ,"--low", "#80ffdb"
+     ,"--width", "6"
+    ]20
+
+    ,Run StdinReader
+
+    ,Run Com "/home/tkemberli/scripts/ethernetDisplay.sh" [] "ethernet" 50
+
+    ,Run Com "/home/tkemberli/scripts/brightnessDisplay.sh" [] "brightness" 10
+
+    ,Run Com "/home/tkemberli/scripts/mediaInfo.sh" [] "media" 10
+
+    ,Run Com "/home/tkemberli/scripts/volumeDisplay.sh" [] "volume" 10
+
+    ,Run Com "/home/tkemberli/scripts/mouseBattery.sh" [] "mouse" 10
+
+    ,Run WeatherX "SBSP"[
+      ("clear", "\xf185")
+     ,("sunny", "\xf185")
+     ,("mostly clear", "\xf6c4")
+     ,("mostly sunny", "\xf6c4")
+     ,("partly sunny", "\xf6c4")
+     ,("fair", "\xf6c4")
+     ,("cloudy","\xf0c2")
+     ,("overcast","\xf0c2")
+     ,("partly cloudy", "\xf0c2")
+     ,("mostly cloudy", "\xf0c2")
+     ,("considerable cloudiness", "\xf73d")]
+     [
+       "--template", "<skyConditionS> <tempC> \xf76b | \xf72e <windKmh>km <windCardinal>"
+       ,"--High", "27"
+       ,"--high", "#ff7fa3"
+       ,"--Low", "18"
+       ,"--low", "#80E3FF"
+       ,"--width", "2"
+     ]6000
+
+     , Run Date "%a, %b %d | %I:%M:%S %p" "date" 10
+  ]
+}

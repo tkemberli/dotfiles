@@ -1,0 +1,18 @@
+2022/09/25-14:05:12.239 3 Reusing MANIFEST /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/09/25-14:05:12.239 3 Recovering log #204
+2022/09/25-14:05:12.240 3 Reusing old log /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000204.log 
+2022/09/25-14:11:01.149 5 Level-0 table #208: started
+2022/09/25-14:11:01.176 5 Level-0 table #208: 17009 bytes OK
+2022/09/25-14:11:01.209 5 Delete type=0 #204
+2022/09/25-14:55:38.325 22 Level-0 table #210: started
+2022/09/25-14:55:38.373 22 Level-0 table #210: 18510 bytes OK
+2022/09/25-14:55:38.399 22 Delete type=0 #207
+2022/09/25-14:55:38.399 22 Compacting 4@0 + 1@1 files
+2022/09/25-14:55:38.456 22 Generated table #211@0: 7140 keys, 180520 bytes
+2022/09/25-14:55:38.456 22 Compacted 4@0 + 1@1 files => 180520 bytes
+2022/09/25-14:55:38.482 22 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/25-14:55:38.483 22 Delete type=2 #208
+2022/09/25-14:55:38.483 22 Delete type=2 #205
+2022/09/25-14:55:38.483 22 Delete type=2 #203
+2022/09/25-14:55:38.483 22 Delete type=2 #210
+2022/09/25-14:55:38.483 22 Delete type=2 #200
