@@ -1,6 +1,0 @@
-2022/09/19-10:25:27.696 35afe Reusing MANIFEST /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/19-10:25:27.696 35afe Recovering log #122
-2022/09/19-10:25:28.163 35afe Reusing old log /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000122.log 
-2022/09/19-10:25:41.519 2683b Level-0 table #128: started
-2022/09/19-10:25:41.628 2683b Level-0 table #128: 1768638 bytes OK
-2022/09/19-10:25:41.716 2683b Delete type=0 #122

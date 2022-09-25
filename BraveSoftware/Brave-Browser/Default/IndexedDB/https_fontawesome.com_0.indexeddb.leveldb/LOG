@@ -1,7 +1,0 @@
-2022/09/25-14:40:09.972 22d2d Reusing MANIFEST /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/25-14:40:09.973 22d2d Recovering log #3
-2022/09/25-14:40:10.005 22d2d Reusing old log /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000003.log 
-2022/09/25-14:45:19.093 33390 Level-0 table #5: started
-2022/09/25-14:45:19.126 33390 Level-0 table #5: 7108 bytes OK
-2022/09/25-14:45:19.153 33390 Delete type=0 #3
-2022/09/25-14:45:19.153 33390 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,6 +1,0 @@
-2022/09/25-15:55:08.252 53e82 Reusing MANIFEST /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/09/25-15:55:08.252 53e82 Recovering log #328
-2022/09/25-15:55:08.253 53e82 Reusing old log /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000328.log 
-2022/09/25-15:59:18.685 53e8c Level-0 table #332: started
-2022/09/25-15:59:18.772 53e8c Level-0 table #332: 81177 bytes OK
-2022/09/25-15:59:18.873 53e8c Delete type=0 #328

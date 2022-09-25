@@ -1,3 +1,0 @@
-[2022-09-25 13:28:33.233] [renderer1] [error] [Extension Host] (node:91843) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `electron --trace-deprecation ...` to show where the warning was created)
-[2022-09-25 13:34:49.174] [renderer1] [error] Unable to load and parse grammar for scope source.haskell from file:///home/tkemberli/.vscode-oss/extensions/justusadam.language-haskell-3.6.0/syntaxes/haskell.json {"fileOperationResult":1,"options":{"preferUnbuffered":true}}

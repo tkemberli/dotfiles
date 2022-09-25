@@ -1,7 +1,0 @@
-2022/09/25-11:57:16.716 1087f Reusing MANIFEST /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/25-11:57:16.716 1087f Recovering log #749
-2022/09/25-11:57:16.719 1087f Reusing old log /home/tkemberli/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000749.log 
-2022/09/25-11:57:20.361 10964 Compacting 1@1 + 2@2 files
-2022/09/25-11:57:20.476 10964 Generated table #765@1: 50238 keys, 1136270 bytes
-2022/09/25-11:57:20.476 10964 Compacted 1@1 + 2@2 files => 1136270 bytes
-2022/09/25-11:57:20.531 10964 compacted to: files[ 0 0 12 0 0 0 0 ]
