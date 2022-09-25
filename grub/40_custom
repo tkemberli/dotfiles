@@ -1,0 +1,22 @@
+#!/bin/sh
+exec tail -n +3 $0
+#:w This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+menuentry Windows --class windows{
+        insmod part_gpt
+        insmod fat
+        insmod chain
+        search --no-floppy --fs-uuid --set=root 4C97-B778
+        chainloader /EFI/Microsoft/Boot/bootmgfw.efi
+}
+
+
+menuentry "Restart" --class restart {
+        reboot
+}
+
+menuentry "Shutdown" --class shutdown {
+        halt
+}
