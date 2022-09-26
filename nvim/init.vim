@@ -6,6 +6,7 @@ set autoindent
 set number
 set relativenumber
 set wildmode=longest,list
+set wildmenu
 filetype plugin indent on
 set clipboard=unnamedplus
 set cursorline
