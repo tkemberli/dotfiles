@@ -9,7 +9,7 @@ Config{
   sepChar = "%",
   alignSep = "}{",
 
-  template="  <action=`alacritty -t 'System Monitor' -e top` button=1><box type=Bottom>%multicpu%</box>  <box type=Bottom>%memory%</box>  <box type=Bottom>%dynnetwork%</box>%ethernet%  <box type=Bottom>%disku%</box></action>  %brightness%  %mouse%}%StdinReader%{<action=`playerctl play-pause` button=1><action=`playerctl next` button=3>%media%</action></action>%volume%  <action=`alacritty --hold -t Weather -o font.size=10 -e curl wttr.in` button=1><box type=Bottom>%SBSP%</box></action>  <action=`alacritty -t 'Calendar' -e calcurse` button=1><box type=Bottom>%date%</box></action>  ",
+  template="  <action=`alacritty -t 'System Monitor' -e btop` button=1><box type=Bottom>%multicpu%</box>  <box type=Bottom>%memory%</box>  <box type=Bottom>%dynnetwork%</box>%ethernet%  <box type=Bottom>%disku%</box></action>  %brightness%  %mouse%}%StdinReader%{<action=`playerctl play-pause` button=1><action=`playerctl next` button=3>%media%</action></action>%volume%  <action=`alacritty --hold -t Weather -o font.size=10 -e curl wttr.in` button=1><box type=Bottom>%SBSP%</box></action>  <action=`alacritty -t 'Calendar' -e calcurse` button=1><box type=Bottom>%date%</box></action>  ",
 
   commands= [
     Run MultiCpu[

@@ -32,10 +32,8 @@ scratchpads = [
 
 floatMiddleBig = customFloating $ W.RationalRect (0.1) (0.1) (0.8) (0.8)
 floatMiddleSmall = customFloating $ W.RationalRect (0.3) (0.3) (0.4) (0.5)
-floatLeftSmall = customFloating $ W.RationalRect (0) (0.02) (0.4) (0.5)
-floatRightSmall = customFloating $ W.RationalRect (0.6) (0.02) (0.4) (0.5)
-floatMiddleLeftSmall = customFloating $ W.RationalRect (0.5) (0.02) (0.4) (0.5)
-floatWeatherRightSmall = customFloating $ W.RationalRect (0.6) (0.02) (0.4) (0.7)
+floatLeftSmall = customFloating $ W.RationalRect (0) (0.02) (0.4) (0.7)
+floatRightSmall = customFloating $ W.RationalRect (0.6) (0.02) (0.4) (0.7)
 
 myPP = filterOutWsPP [scratchpadWorkspaceTag] xmobarPP{
     ppCurrent = xmobarColor myFocusedBorderColor "" . wrap "[" "]",
@@ -52,7 +50,7 @@ myManageHook = composeAll[
     title =? "Save File" --> floatMiddleSmall,
     title =? "System Monitor" --> floatLeftSmall,
     title =? "Calendar" --> floatRightSmall,
-    title =? "Weather" --> floatWeatherRightSmall
+    title =? "Weather" --> floatRightSmall
     ] <+> namedScratchpadManageHook scratchpads
 
 myConfig = ewmhFullscreen $ ewmh $ def {
