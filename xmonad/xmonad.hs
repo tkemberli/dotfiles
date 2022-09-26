@@ -48,6 +48,7 @@ myManageHook = composeAll[
     isFullscreen --> doFullFloat,
     className =? "Pcmanfm" --> floatMiddleBig,
 	className =? "Vmware-view" --> doShift ( myWorkspaces !! 1 ),
+	className =? "Galculator" --> floatMiddleSmall,
     title =? "Save File" --> floatMiddleSmall,
     title =? "System Monitor" --> floatLeftSmall,
     title =? "Calendar" --> floatRightSmall,
