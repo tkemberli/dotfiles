@@ -47,6 +47,7 @@ toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_b)
 myManageHook = composeAll[
     isFullscreen --> doFullFloat,
     className =? "Pcmanfm" --> floatMiddleBig,
+	className =? "Vmware-view" --> doShift ( myWorkspaces !! 1 ),
     title =? "Save File" --> floatMiddleSmall,
     title =? "System Monitor" --> floatLeftSmall,
     title =? "Calendar" --> floatRightSmall,
