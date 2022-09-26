@@ -79,6 +79,7 @@ myConfig = ewmhFullscreen $ ewmh $ def {
     
     ((myModMask, xK_F10), spawn "brave --new-window"),
     ((myModMask, xK_F11), spawn "pcmanfm"),
+    ((myModMask, xK_F12), spawn "galculator"),
     
     ((myModMask, xK_p), spawn "rofi -show drun"),
     ((myModMask, xK_o), spawn "rofi -show run"),
