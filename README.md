@@ -3,7 +3,7 @@
 
 [Arch](https://archlinux.org/) is a very minimalist distro. Upon installing it, you are greeted by a blinking TTY screen; from there, you must pick and choose every aspect of your environment, such as: display server, network manager, desktop, etc...
 
-These dotfiles reflect my joyce of packages and their configurations.
+These dotfiles reflect my choice of packages and their configurations.
 I haven't riced them to the moon (yet), since I prefer usability over bling.
 
 Highlights are:
